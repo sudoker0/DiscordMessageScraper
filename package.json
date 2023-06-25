@@ -1,0 +1,23 @@
+{
+  "name": "discordmessagescraper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "compile": "npx tsc",
+    "scrape": "npm run compile && node ./dist/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "cli-progress": "^3.12.0",
+    "dotenv": "^16.3.1",
+    "typescript": "^5.1.3"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.0",
+    "@types/node": "^20.3.1"
+  }
+}
